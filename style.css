@@ -9,8 +9,12 @@ body {
   margin-top: 80px;
 }
 
-button {
-  padding: 10px 20px;
-  margin-top: 10px;
+.upload-btn {
+  background: #ff9800;
+  padding: 15px 25px;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
 }
