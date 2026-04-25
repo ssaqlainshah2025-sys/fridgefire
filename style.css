@@ -16,3 +16,13 @@ body {
   display: inline-block;
   margin-top: 20px;
 }
+let score = Math.floor(Math.random() * 10) + 1;
+
+let message = "";
+
+if (score <= 3) message = "You need groceries badly 😭";
+else if (score <= 7) message = "You can survive a few meals 🍳";
+else message = "Your fridge is elite 🔥";
+
+document.getElementById("result").innerHTML +=
+  "<br><br>😂 Fridge Score: " + score + "/10 — " + message;
