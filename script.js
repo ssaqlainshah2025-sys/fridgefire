@@ -1,9 +1,10 @@
 function processImage() {
   document.getElementById("result").innerHTML =
-    "🧠 AI is analyzing your fridge...";
+    "🧠 Scanning your fridge...";
 
   setTimeout(() => {
-    generateRecipe();
+    document.getElementById("result").innerHTML =
+      "🥚 Detected: Eggs, Milk, Bread<br><br>🔥 Recipe: Egg Sandwich";
   }, 2000);
 }
 
